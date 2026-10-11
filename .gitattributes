@@ -1,0 +1,7 @@
+# 统一换行符，避免 Windows/macOS 协作时的 CRLF 噪音
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.csv text eol=crlf
+*.ics text eol=crlf
+*.png binary

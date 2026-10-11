@@ -1,0 +1,23 @@
+# ---- 运行产物（含个人课表数据，切勿提交）----
+kb_weeks.json
+课表_*.csv
+课表_*.ics
+课表链接.txt
+*.mitm
+captured.jsonl
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- 本地调试 ----
+_debug/
